@@ -108,9 +108,11 @@ Le fichier `standalone.html` peut être renommé en `index.html` et déposé dir
 - **Build Command** : `npm run build`
 - **Port** : `3000` (ou variable d'environnement `PORT`)
 
-### 3. Vercel (Next.js / Vite SPA)
-- Configurez le dossier de sortie (`Output Directory`) sur `dist`.
-- Définissez la commande de build : `npm run build`.
+### 3. Déploiement Vercel
+- Le projet inclut un fichier `vercel.json` et un fichier `.npmrc` configurés pour résoudre automatiquement les dépendances et gérer le routage.
+- **Framework Preset** : Vite
+- **Output Directory** : `dist`
+- Les fonctions API Serverless (`/api/analyze`, `/api/health`) sont automatiquement prises en charge par Vercel.
 
 ---
 
