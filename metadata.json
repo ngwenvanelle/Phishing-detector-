@@ -1,0 +1,7 @@
+{
+  "name": "PhishGuard",
+  "description": "Plateforme cybersécurité d'analyse et de détection de phishing pour URLs, adresses email et messages avec score de risque et recommandations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
